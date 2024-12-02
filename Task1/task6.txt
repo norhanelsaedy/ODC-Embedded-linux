@@ -1,0 +1,12 @@
+To handle Ctrl+C in a shell script, use the trap command 
+
+#!/bin/bash
+
+# Trap Ctrl+C (SIGINT) and exit gracefully
+trap "echo 'Ctrl+C detected, exiting...'; exit" SIGINT
+
+# Simulating a long-running process
+while true; do
+    sleep 1
+done
+

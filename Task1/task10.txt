@@ -1,0 +1,8 @@
+1- $(( )) (Arithmetic Expansion): The most common and preferred method
+
+2-let Command: Another way to perform arithmetic. It allows direct modification of variables with arithmetic expressions.
+
+3-expr Command: An older method for performing arithmetic. It works with expressions passed as arguments
+
+4-bc Command: Used for floating-point arithmetic and precision operations. It can perform calculations with decimal numbers, unlike the other methods that work with integers.
+

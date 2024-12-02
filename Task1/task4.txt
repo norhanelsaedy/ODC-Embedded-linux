@@ -1,0 +1,12 @@
+Standard Output (stdout):
+
+    Used for normal program output (e.g., results or messages).
+    File Descriptor: 1
+
+Standard Error (stderr):
+
+    Used for error messages (e.g., warnings or issues).
+    File Descriptor: 2
+
+
+stdout is for normal output, while stderr is for error messages.
